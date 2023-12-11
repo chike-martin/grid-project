@@ -1,0 +1,364 @@
+
+body{
+    background-color: aliceblue;
+    
+    width: 100%;
+    margin: 0px;
+}
+
+.container{
+    height: 1200px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+
+    display: grid;
+    grid-column: 30% 40% 30%;
+    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+.bless1{
+    background-color: gray;
+    grid-column: 1/4;
+    padding: 30px;
+    border: 5px solid black;
+    font-size: 50px;
+    color: aliceblue;
+    text-transform: capitalize;
+    transition: all 0.9s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+.bless1:hover{
+    color: blueviolet;
+}
+
+
+ 
+.bless2{
+    background-color:gray;
+    grid-column: 1/4;
+    padding: 30px;
+    border: 5px solid;
+    
+}
+.bless2 a{
+    float: right;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    text-transform: capitalize;
+    transition: all 0.9s ease-in-out;
+    margin: 0px 20px;   
+    cursor: pointer;
+    font-size: 35px;
+    
+}
+
+.bless2 a:hover{
+    color: darkolivegreen;
+}
+.bless3{
+    background-color: palevioletred;
+    grid-row: 3/7;
+    padding: 30px;
+    border: 5px solid;
+    font-size: 40px;
+    line-height: 100px;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all 0.9s ease-in-out;
+}
+
+.bless3:hover{
+    color: blueviolet;
+}
+
+
+    
+    
+    
+
+.bless4{
+    background-color: yellow;
+    grid-row: 3/7;
+    padding: 40px;
+    border: 5px solid;
+    font-size: 40px; 
+    text-transform: capitalize;
+    transition: all 0.9s ease-in-out;  
+    
+}
+
+.bless4:hover{
+    color: blueviolet;
+}
+
+.bless5{
+    background-color: dodgerblue;
+    grid-row: 3/7;
+    padding: 40px;
+    border: 5px solid;
+    font-size: 40px;
+    line-height: 100px;
+    text-transform: capitalize;
+    transition: all 0.9s ease-in-out;
+    
+}
+
+.bless5:hover{
+    color: blueviolet;
+}
+
+.bless6{
+    background-color: blue;
+    grid-column: 1/4;
+    padding: 30px;
+    border: 5px solid;
+    font-size: 50px;
+    color: aliceblue;
+    text-transform: capitalize;
+    transition: all 0.9s ease-in-out;
+}
+.bless6:hover{
+    color: blueviolet;
+}
+
+.bong1{
+    
+    margin: 4px 0px;
+    background-color: green;
+    padding: 20px 0px;
+    border: 5px solid;
+    font-size: 50px; 
+    text-transform: capitalize;
+    transition: all 0.9s ease-in-out;
+
+ }
+ .bong1:hover{
+    color: coral;
+ }
+
+ 
+.brabra2{
+    margin: 4px 0px;
+
+        padding: 20px 0px;
+        background-color: green;
+        border: 5px solid;
+        font-size: 50px;
+        text-transform: capitalize;
+    transition: all 0.9s ease-in-out;
+}
+
+.brabra2:hover{
+    color: sienna;
+}
+        
+
+    
+    
+    .article3{
+        
+        padding: 20px 0px;
+        background-color: green;
+        margin: 4px 0px;
+        border: 5px solid;
+        font-size: 50px;
+        text-transform: capitalize;
+    transition: all 0.9s ease-in-out;
+}
+
+.article3:hover{
+    color: crimson;
+}
+    
+
+    .item{
+        
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    position: relative;
+    bottom: -210px;
+
+    }
+
+@media screen and (max-width:1073px){
+
+    .container{
+   .bless1{
+    background-color: gray;
+    grid-column: 1/4;
+    padding: 20px;
+    border: 5px solid black;
+    font-size: 30px;
+    color: aliceblue;
+    text-transform: capitalize;
+    transition: all 0.9s ease-in-out;
+    cursor: pointer;
+   }
+   .bless1:hover{
+    color: blueviolet;
+}
+
+   .bless2{
+    background-color:gray;
+    grid-column: 1/4;
+    padding: 30px;
+    border: 5px solid;
+
+   }
+   .bless2 a{
+    float: right;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    text-transform: capitalize;
+    transition: all 0.9s ease-in-out;
+    margin: 0px 10px;   
+    cursor: pointer;
+    font-size: 25px;
+
+   }
+   .bless2 a:hover{
+    color: darkolivegreen;
+}
+.bless3{
+    background-color: palevioletred;
+    grid-row: 3/7;
+    padding: 20px;
+    border: 5px solid;
+    font-size: 30px;
+    line-height: 70px;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all 0.9s ease-in-out;
+}
+
+.bless3:hover{
+    color: blueviolet;
+}
+
+
+    
+    
+    
+
+.bless4{
+    background-color: yellow;
+    grid-row: 3/7;
+    padding: 20px;
+    border: 5px solid;
+    font-size: 30px; 
+    text-transform: capitalize;
+    transition: all 0.9s ease-in-out;  
+    
+}
+
+.bless4:hover{
+    color: blueviolet;
+}
+
+.bless5{
+    background-color: dodgerblue;
+    grid-row: 3/7;
+    padding: 20px;
+    border: 5px solid;
+    font-size: 30px;
+    line-height: 70px;
+    text-transform: capitalize;
+    transition: all 0.9s ease-in-out;
+    
+}
+
+.bless5:hover{
+    color: blueviolet;
+}
+
+.bless6{
+    background-color: blue;
+    grid-column: 1/4;
+    padding: 20px;
+    border: 5px solid;
+    font-size: 30px;
+    color: aliceblue;
+    text-transform: capitalize;
+    transition: all 0.9s ease-in-out;
+}
+.bless6:hover{
+    color: blueviolet;
+}
+
+.bong1{
+    
+    margin: 4px 0px;
+    background-color: green;
+    padding: 10px 0px;
+    border: 5px solid;
+    font-size: 30px; 
+    text-transform: capitalize;
+    transition: all 0.9s ease-in-out;
+
+ }
+ .bong1:hover{
+    color: coral;
+ }
+
+ 
+.brabra2{
+    margin: 4px 0px;
+
+        padding: 10px 0px;
+        background-color: green;
+        border: 5px solid;
+        font-size: 30px;
+        text-transform: capitalize;
+    transition: all 0.9s ease-in-out;
+}
+
+ .article3{    
+padding: 10px 0px;
+background-color: green;
+margin: 4px 0px;
+border: 5px solid;
+font-size: 30px;
+text-transform: capitalize;
+transition: all 0.9s ease-in-out;
+}
+
+.article3:hover{
+color: crimson;
+}
+
+
+.item{
+
+display: grid;
+grid-template-columns: 1fr;
+grid-row-gap: 5px;
+position: relative;
+bottom: -200px;
+
+}
+
+
+
+    }
+}     
+    
+
+    
+
+
+
+
+
+
+
+
