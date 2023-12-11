@@ -1,0 +1,134 @@
+
+    
+   
+
+
+
+.container{
+
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 15px;
+    justify-content: center;
+    
+    line-height: 300px;
+    text-align: center;
+    padding-top: 150px;
+    height: 45vh;
+}
+
+
+.grid{
+    background-color: dodgerblue;
+    padding: 10px;
+    
+    border-radius: 10px;
+}
+
+.template{
+    background-color: lightpink;
+    padding: 10px;
+    
+    border-radius: 10px;
+}
+
+.bass{
+    background-color: greenyellow;
+    padding: 10px;
+    
+    border-radius: 10px;
+    
+}
+
+.grid:hover{
+    background-color: aliceblue;
+}
+
+
+.template:hover{
+    background-color: aliceblue;
+}
+
+
+.bass:hover{
+    background-color: aliceblue;
+    
+}
+
+/* this is my media */
+
+@media screen and (max-width:1081px){
+    .container{
+
+        font-size: 18px;
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+        gap: 10px;
+        justify-content: center;
+        
+        line-height: 300px;
+        text-align: center;
+        padding-top: 100px;
+        height: 30vh;
+    }
+
+    @media (max-width:790px){
+    .container{
+
+   
+        font-size: 15px;
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        gap: 8px;
+        justify-content: center;
+        
+        line-height: 300px;
+        text-align: center;
+        padding-top: 70px;
+        height: 15vh;
+
+    }
+    }
+
+    @media (max-width:648px){
+
+        .container{
+
+            
+        font-size: 15px;
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        gap: 8px;
+        justify-content: center;
+        
+        line-height: 300px;
+        text-align: center;
+        padding-top: 50px;
+        height: 10vh;
+        }
+    }
+
+
+    @media (min-width:322px) and (max-width:469px){
+  .container{
+       
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 5px;
+    justify-content: center;
+    
+    line-height: 300px;
+    text-align: center;
+    padding-top: 50px;
+    height: 5vh;
+    }
+
+  }
+
+
+
+    }
+
+
